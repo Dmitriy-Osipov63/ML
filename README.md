@@ -1,2 +1,1 @@
-# test
-test
+обучение NLP LLM
