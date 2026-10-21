@@ -1,0 +1,3 @@
+
+phrase = input("Введите строку: при")
+print(phrase)
