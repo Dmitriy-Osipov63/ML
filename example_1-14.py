@@ -1,6 +1,6 @@
-name = input()
 number = int(input())
-child_list = number % 10
-group = number // 100 % 10
-box = number // 10 % 10
-print(f"Группа №{group}.\n{child_list}. {name}.\nШкафчик: {number}.\nКроватка: {box}.")
+a = number // 1000 % 10
+b = number // 100 % 10
+c = number // 10 % 10
+d = number % 10
+print(b, a, d, c, sep="")

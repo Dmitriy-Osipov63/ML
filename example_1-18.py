@@ -1,0 +1,11 @@
+H = int(input())
+M = int(input())
+T = int(input())
+minute = (H * 60) + M + T
+H1 = (minute % 1440) // 60
+H11 = H1 // 10
+H22 = H1 % 10
+M1 = (minute % 1440) % 60
+M11 = M1 // 10
+M22 = M1 % 10  
+print(H11, H22, ":", M11, M22, sep="")
