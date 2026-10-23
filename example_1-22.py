@@ -1,7 +1,7 @@
-product_name = "манго"
-price_per_kg = "187"
-weight = "43"
-user_money = "8041"
+product_name = input()
+price_per_kg = int(input())
+weight = int(input())
+user_money = int(input())
 cost = int(price_per_kg) * int(weight)
 change = int(user_money) - int(cost)
 print(f"================Чек================")
